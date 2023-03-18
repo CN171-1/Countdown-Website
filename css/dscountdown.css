@@ -71,8 +71,8 @@
 .ds-black .ds-element {
 	float: left;
     text-align: center;
-    border-right: 3px solid green;
-    border-left: 3px solid green;
+    border-right: 3px solid white;
+    border-left: 3px solid white;
     padding-right: 10px;
     width: 23%;
     background: rgba(0,0,0,0.29);
