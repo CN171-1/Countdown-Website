@@ -37,14 +37,11 @@
     <link rel="stylesheet" href="css/dscountdown.css" type="text/css" media="all">
 
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
-    <!-- 点击页面出现小星星（暂不可用） -->
-    <!-- <script src="https://up.ffboke.cn/js/heat.js" type="text/javascript" charset="utf-8"></script> -->
     
     <script type="text/javascript" src="js/dscountdown.min.js"></script>
     <!-- 实现一言  -->
     <script>
-        fetch('https://v1.hitokoto.cn')
+        fetch('https://v1.hitokoto.cn/?c=d')
           .then(response => response.json())
           .then(data => {
             const hitokoto = document.getElementById('hitokoto_text')
